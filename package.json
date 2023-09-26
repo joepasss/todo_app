@@ -1,6 +1,6 @@
 {
   "name": "todo_app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple todo app",
   "main": "src/index.ts",
   "repository": "git@github.com:joepasss/todo_app.git",
@@ -8,8 +8,12 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.7.0",
+    "sass": "^1.68.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "sass_build": "sass ./src/style.scss ./dist/style.css"
+  }
 }
