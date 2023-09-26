@@ -1,6 +1,6 @@
 {
   "name": "todo_app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple todo app",
   "main": "src/index.ts",
   "repository": "git@github.com:joepasss/todo_app.git",
